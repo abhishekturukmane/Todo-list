@@ -1,0 +1,116 @@
+body{
+  background-color: rgb(49, 49, 230);
+  font-family: 'Caveat', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Mooli', sans-serif;
+}
+.main_div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.sub_div{
+  background-color:rgb(2, 2, 175);
+  width: 70%;
+  height: 80vh;
+  margin-top: 40px;
+}
+.h1{
+  color: antiquewhite;
+  text-align: center;
+}
+img{
+  width: 50px;
+  height: 50px;
+  padding-left: 410px;
+  
+}
+/* input{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+} */
+input{
+  outline: none;
+  border-color:blue ;
+  width: 350px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 310px;
+}
+input::placeholder{
+  color: gray;
+  text-align: center;
+  
+}
+
+.add-btn{
+  color: green;
+  margin-left: -25px;
+}
+.mini_show{
+  width: 200px;
+  height: 30px;
+  color: blue;
+  background-color:blanchedalmond ;
+  border-radius: 5px;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.showItems{
+ 
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+}
+.items{
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.del-btn{
+  color: red;
+  /* margin-top: 8px;
+  margin-left: 130px; */
+  
+}
+.edit-btn{
+  color: green;
+  width: 23px;
+}
+.edit_del{
+  margin-top: 7px;
+  margin-right: 8px
+
+}
+button{
+  color: blue;
+  text-align: center;
+  background-color:antiquewhite;
+  outline: none;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  
+}
+.btn_remove{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.para{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+.editInput-btn{
+  margin-left: -30px;
+  color: green;
+}
